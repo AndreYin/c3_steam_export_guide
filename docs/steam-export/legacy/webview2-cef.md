@@ -115,4 +115,4 @@ On Linux with CEF, Steam Overlay is expected to work when launched from Steam.
 ## Next Steps
 
 - 📖 [NW.js Export](./nwjs) — For full Steam Overlay support on Windows
-- 📖 [Pipelab](../electron) — Custom Electron-based exporter
+- 📖 [Pipelab](../pipelab) — Custom Electron-based exporter
