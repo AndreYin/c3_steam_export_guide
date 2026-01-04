@@ -11,7 +11,7 @@ hero:
       link: /steam-export/
 
 features:
-  - title: Default Exporters
+  - title: Default Exporters 
     details: Use the built-in Construct 3 exporters (Webview2, CEF, or Legacy NW.js).
   - title: Pipelab
     details: Industry standard Electron wrapper for advanced automation and customization.

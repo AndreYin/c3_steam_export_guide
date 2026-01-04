@@ -2,6 +2,12 @@
 
 GemShell provides a native wrapper for your HTML5 game with built-in Steamworks support, removing the need for complex plugin setups.
 
+- **Pros:**
+  - ⭐ Doesn't rely on NW.js, Electron, or Chromium in any way.
+  - ⭐ Easy, drag-and-drop solution.
+- **Cons:**
+  - ❌ Requires the user to implement their own JS calls onto their Event Sheets to use the Steamworks API.
+
 ## Prerequisites
 - **GemShell** (Pro version required for full Steamworks support).
 - Your Game's **App ID**.

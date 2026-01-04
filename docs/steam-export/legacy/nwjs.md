@@ -6,17 +6,17 @@ NW.js was the default exporter in older versions of Construct 3 before r450. It 
 For Construct 3 r450 and later, NW.js has been removed entirely from Construct 3. See the [this post on the Scirra forums](https://www.construct.net/en/forum/construct-3/general-discussion-7/nwjs-fully-removed-r450-186742) for more details.
 :::
 
-## Pros
-- ⭐ **Steam Overlay works** — Unlike Webview2
-- ⭐ Cross-platform (Windows and Linux)
-- ⭐ Mature and well-tested
-
-## Cons
-- ❌ Larger file size than Webview2
-- ❌ No new updates to the Chromium/NW.js versions
-- ❌ Stuck on SDKv1 versions of the Greenworks / Greengrinds plugin
-- ❌ May not receive updates for newer web features
-
+- **Pros:**
+  - ⭐ Built-in the older releases of Construct 3.
+  - ⭐ Single-click exports for all OS's (Windows, Linux and macOS).
+  - ⭐ Official [Greenworks](https://www.construct.net/en/construct-2/addons/83/greenworks/versions) addon supports basic Steamworks functionalities.
+  - ⭐ Unofficial [Greengrinds](https://www.construct.net/en/make-games/addons/244/greengrinds/versions) addon supports advanced Steamworks functionalities.
+- **Cons:**
+  - ❌ Big filesize (~150MB+).
+  - ❌ Deprecated - No more updates or official support.
+  - ❌ Stuck on NW.js v0.100.1 / Steamworks SDK v1.62 (GreenWorks).
+  - ❌ Stuck on NW.js v0.98 / Steamworks SDK 1.60 (Greengrinds).
+  
 ## Setup Instructions
 
 *Content to be added for legacy versions.*

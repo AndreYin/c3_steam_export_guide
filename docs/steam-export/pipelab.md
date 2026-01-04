@@ -2,12 +2,15 @@
 
 Pipelab is a third-party tool that simplifies exporting Construct 3 games to desktop platforms using Electron. It provides full Steam integration including **Steam Overlay support**, which is not available with the default Webview2 exporter.
 
-## Features
-
-- ⭐ **Steam Overlay works** — Unlike Webview2 exports
-- ⭐ Cross-platform builds (Windows, macOS, Linux)
-- ⭐ Built-in Steamworks integration
-- ⭐ Simplified build process
+- **Pros:**
+  - ⭐ Extremely customizable.
+  - ⭐ Supports multiple frameworks such as Electron, Tauri and Neutralino.
+  - ⭐ Supports multiple storefronts (Steam, Epic Games, and more).
+  - ⭐ Rich ecosystem of packages.
+  - ⭐ Powerful automation tools.
+- **Cons:**
+  - ❌ User has to set-up their own automation solution.
+  - ❌ Large file sizes (depending on wrapper chosen).
 
 ## Getting Started
 

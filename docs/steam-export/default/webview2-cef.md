@@ -2,6 +2,14 @@
 
 Webview2 and CEF are the default exporters in Construct 3 after release 450. They run your game inside a Chromium-based runtime.
 
+- **Pros:**
+  - ⭐ Built-in Construct 3 latest releases.
+  - ⭐ Single-click exports.
+  - ⭐ Officialy supported Steamworks addons.
+- **Cons:**
+  - ❌ Currently (Jan 04 2026) has issues with gamepads in general.
+  - ❌ Relies on multiple exports for different systems (Webview2 for Windows, CEF for Linux).
+
 ::: info 📦 Platform Availability
 - **Webview2** — Windows only (uses Microsoft Edge Webview2 runtime)
 - **CEF** — Linux only (Chromium Embedded Framework)
@@ -90,7 +98,8 @@ In case you need a Construct 3 project example to test things out, you can use <
 | Game won't start | User needs to install [Webview2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) |
 | Black screen on launch | Update graphics drivers, or try compatibility mode |
 
-## Next Steps
+## Other Exports
 
 - 📖 [NW.js Legacy Export](../legacy/nwjs) — For full Steam Overlay support on Windows
 - 📖 [Pipelab](../pipelab) — Custom Electron-based exporter
+- 📖 [Gemshell](../gemshell) — Custom exporter
