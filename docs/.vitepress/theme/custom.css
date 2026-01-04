@@ -1,0 +1,45 @@
+/* Construct 3 Event Sheet Inline Classes - Modern Dark Theme */
+
+/* Object names - bright blue */
+.c3-obj {
+  color: #3498db;
+  font-weight: 600;
+}
+
+/* Parameters/properties - orange/amber */
+.c3-param {
+  color: #f39c12;
+  font-weight: 500;
+}
+
+/* Values - red/coral for strings/numbers */
+.c3-val {
+  color: #e74c3c;
+  font-weight: 500;
+}
+
+/* Expression - light blue/cyan */
+.c3-expr {
+  color: #9cdcfe;
+}
+
+/* Separator arrows */
+.c3-sep {
+  color: #7f8c8d;
+  margin: 0 5px;
+}
+
+/* Keep old classes for backwards compatibility */
+.param {
+  color: #f39c12;
+  font-weight: 500;
+}
+
+.value {
+  color: #e74c3c;
+}
+
+.object {
+  color: #3498db;
+  font-weight: 600;
+}

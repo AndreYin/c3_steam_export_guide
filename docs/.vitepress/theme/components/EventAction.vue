@@ -1,0 +1,36 @@
+<template>
+  <div class="c3-action">
+    <div class="c3-action-label">Action</div>
+    <div class="c3-action-text">
+      <slot />
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.c3-action {
+  background-color: rgba(20, 35, 25, 0.6);
+  border-left: 4px solid #2ecc71;
+  border-radius: 0 8px 8px 0;
+  padding: 12px 15px;
+  margin-left: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #2ecc71;
+}
+
+.c3-action-label {
+  color: #95a5a6;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.c3-action-text {
+  color: #e0e0e0;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Courier New', 'Consolas', monospace;
+}
+</style>
