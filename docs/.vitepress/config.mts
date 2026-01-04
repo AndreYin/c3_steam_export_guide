@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "C3 Steam Export Guide",
   description: "Helping users to export their C3 games",
+  base: '/c3_steam_export_guide/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
