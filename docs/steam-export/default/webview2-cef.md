@@ -70,6 +70,9 @@ Add a debug text object that shows `Steamworks.UserDisplayName` to confirm Steam
 
 Once testing is complete, upload your build to Steam. See the [Uploading to Steam](../uploading-to-steam) guide for detailed instructions.
 
+## .c3p File Example
+In case you need a Construct 3 project example to test things out, you can use <a href="../examples/steamworks_addon_example_r450_webview2_cef.c3p" target="_self">this one</a>.
+
 ## Troubleshooting
 
 ### Steam not initializing
@@ -86,16 +89,6 @@ Once testing is complete, upload your build to Steam. See the [Uploading to Stea
 |---------|----------|
 | Game won't start | User needs to install [Webview2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) |
 | Black screen on launch | Update graphics drivers, or try compatibility mode |
-
-### Steam Overlay not working
-
-Unfortunately, **Steam Overlay does not work with Webview2 exports** on Windows. This is a known limitation. Workarounds:
-
-- Use [NW.js (Legacy)](../legacy/nwjs) export if overlay is critical
-- Use [Pipelab](../pipelab) with Electron for full overlay support
-- Implement in-game achievement notifications as an alternative
-
-On Linux with CEF, Steam Overlay is expected to work when launched from Steam.
 
 ## Next Steps
 
