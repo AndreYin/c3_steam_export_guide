@@ -74,9 +74,7 @@ The Construct 3 default exporters are mostly recommended for projects that don't
   - ❌ Has issues with Steam overlay.
   - ❌ Relies on multiple exports for different systems (Webview2 for Windows, CEF for Linux).
 
-::: tip ➡️ Continue to the [Webview2 (Windows) Export Tutorial](default/webview2) 
-:::
-::: tip ➡️ Continue to the [CEF (Linux) Export Tutorial](default/cef) 
+::: tip ➡️ Continue to the [Webview2 / CEF Export Tutorial](default/webview2-cef) 
 :::
 
 ## Construct 3 NW.js (below r450)
