@@ -93,7 +93,7 @@ Once testing is complete, upload your build to Steam. See the [Uploading to Stea
 Unfortunately, **Steam Overlay does not work with Webview2 exports** on Windows. This is a known limitation. Workarounds:
 
 - Use [NW.js (Legacy)](../legacy/nwjs) export if overlay is critical
-- Use [Pipelab](../electron) with Electron for full overlay support
+- Use [Pipelab](../pipelab) with Electron for full overlay support
 - Implement in-game achievement notifications as an alternative
 
 On Linux with CEF, Steam Overlay is expected to work when launched from Steam.

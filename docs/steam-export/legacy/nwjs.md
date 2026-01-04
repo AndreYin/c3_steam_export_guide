@@ -23,5 +23,4 @@ For Construct 3 r450 and later, NW.js has been removed entirely from Construct 3
 
 ## Next Steps
 
-- 📖 [Webview2 Export (Legacy)](./webview2) — For Windows builds
-- 📖 [CEF Export (Legacy)](./cef) — For Linux builds
+- 📖 [Webview2 / CEF Export (Legacy)](./webview2-cef) — For Windows and Linux builds
