@@ -28,7 +28,6 @@ export default defineConfig({
       {
         text: 'Legacy Exporters (<450)',
         items: [
-          { text: 'Webview2 / CEF', link: '/steam-export/legacy/webview2-cef' },
           { text: 'NW.js (Windows, Linux)', link: '/steam-export/legacy/nwjs' },
         ]
       },

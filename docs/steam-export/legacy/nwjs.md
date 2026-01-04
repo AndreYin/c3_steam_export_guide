@@ -23,4 +23,4 @@ For Construct 3 r450 and later, NW.js has been removed entirely from Construct 3
 
 ## Next Steps
 
-- 📖 [Webview2 / CEF Export (Legacy)](./webview2-cef) — For Windows and Linux builds
+- 📖 [Pipelab](../pipelab) — Custom Electron-based exporter with Steam Overlay support
