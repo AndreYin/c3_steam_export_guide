@@ -10,12 +10,7 @@ Both use the same Steamworks addon and setup process. The only difference is whi
 :::
 
 ::: danger ⚠️ Webview2 Gamepad Issues (Jan 04, 2026)
-**Webview2 currently has critical gamepad issues** that make games unplayable when using a controller. This affects all Webview2 exports, not just Steam builds. Consider using [Pipelab](./pipelab) or [NW.js](./legacy/nwjs) if your game requires gamepad support.
-:::
-
-::: warning ⚠️ Known Limitations
-- **Steam Overlay** does not work with Webview2 exports (Windows)
-- **Steam Input** may have issues on certain configurations
+**Webview2 currently has critical gamepad issues** that [make games unplayable when using a controller](https://github.com/MicrosoftEdge/WebView2Feedback/issues/5406). This affects all Webview2 exports, not just Steam builds. Consider using [Pipelab](./pipelab) or [NW.js](./legacy/nwjs) if your game requires gamepad support.
 :::
 
 ## Prerequisites

@@ -25,11 +25,12 @@ The most pressing Steam issues currently are <strong>Steam Overlay support</stro
 
 <strong>Steam Overlay:</strong>
 
-Depending on your export configuration, Steam Overlay (SHIFT + TAB usually while any Steam game is running) just won't work due to incompatibilities between the overlay and the webview2/CEF runtime. This also means that unlocking an achievement will not show a pop-up notification while you play the game, since the overlay cannot be rendered above the game window.
+Depending on your export configuration, Steam Overlay (SHIFT + TAB usually while any Steam game is running) just won't work due to incompatibilities. This also means that unlocking an achievement will not show a pop-up notification while you play the game, since the overlay cannot be rendered above the game window. 
 
 <strong>Steam Input:</strong>
 
-Steam uses Steam Input to translate any gamepad input into a standardized format that can be used for any game. This works just fine on Windows machines, but it's a big issue getting your games running on the Steamdeck (and future SteamOS machines).
+Steam uses Steam Input to translate any gamepad input into a standardized format that can be used for any game. This works just fine on Windows machines, but it's a big issue getting your games running on the Steamdeck (and future SteamOS machines) - there is a bug where the controls just don't work with your game.
+
 
 :::
 
@@ -46,8 +47,9 @@ Unfortunately I don't have a Mac to test the OSX builds for Steam, but from what
 
 ## Comparison Overview
 
-| Feature | **Webview2 (Windows-only)** | **Chromium Embeded Framework (CEF) (Linux-only)**  | **Deprecated NW.js** | **Pipelab** |**GemShell** |
+| Feature | **Official Webview2** | **Official CEF**  | **NW.js** | **Pipelab** |**GemShell** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Platforms Supported** | Windows | Linux | All Platforms |  All Platforms | All Platforms |
 | **Setup Difficulty** | ⭐⭐⭐ Easy  |⭐⭐⭐ Easy  |⭐⭐⭐ Easy  |  ⭐⭐ Moderate |⭐⭐ Moderate |
 | **File Size**        | 🟢 Tiny (~3MB+) | 🔴 Large (~150MB+) |🔴 Large (~150MB+)|  🔴 Large (~150MB+) |🟢 Tiny (~3MB+) |
 | **Steamworks API**    | 🟢Addons  | 🟢Addons | 🟢Addons |  🟢 Addons | 🟡Pure JavaScript|
