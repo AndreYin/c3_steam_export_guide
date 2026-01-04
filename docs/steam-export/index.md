@@ -108,7 +108,6 @@ The Construct 3 default exporters are mostly recommended for projects that don't
 - **Cons:**
   - ❌ User has to set-up their own automation solution.
   - ❌ Large file sizes.
-- **Best For:** Advanced users who need specific Electron features or deep customization.
 
 ::: tip ➡️ Learn how to integrate Pipelab into your project using the official [Pipelab Documentation](https://docs.pipelab.app) 
 :::
