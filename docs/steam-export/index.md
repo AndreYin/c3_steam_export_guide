@@ -60,7 +60,7 @@ Unfortunately I don't have a Mac to test the OSX builds for Steam, but from what
 
 The official way of exporting your game, directly from inside Construct 3. It uses Webview2 for Windows, and Scirra's own implementation of the Chromium Embeded Framework (CEF, for short) for Linux.
 
-::: danger ⚠️ This option is currently <strong>NOT</strong> recommended when using Webview2, as it has issues with gamepad inputs, and the Steam Overlay is a workaround that could break at any moment.
+::: danger ⚠️ This option is currently <strong>NOT</strong> recommended when using Webview2, as it has issues with [gamepad inputs](https://www.construct.net/en/forum/construct-3/general-discussion-7/xbox-controller-not-working-187241), and the Steam Overlay is a [workaround that could break at any moment](https://www.construct.net/en/blogs/ashleys-blog-2/trying-show-steam-overlay-1861).
 :::
 
 ::: tip ➡️ Continue to the [Webview2 / CEF Export Tutorial](default/webview2-cef) 

@@ -37,7 +37,7 @@ The official Steamworks addon enables basic Steam integration. **Construct 3 doe
 2. Open your project in Construct 3
 3. Go to **Menu** → **View** → **Addon Manager**
 4. Click **Install new addon** and select the downloaded `.c3addon` file
-5. Restart Construct 3 if prompted
+5. Restart Construct 3 when prompted
 
 ## Step 2: Configure the Steamworks Addon
 
@@ -89,7 +89,6 @@ In case you need a Construct 3 project example to test things out, you can use <
 |---------|----------|
 | "Steam not running" error | Make sure Steam client is open before launching |
 | Initialization returns false | Verify the addon is correctly installed and App ID is set |
-| Wrong user detected | Check `steam_appid.txt` has correct App ID |
 
 ### Webview2 runtime issues (Windows)
 

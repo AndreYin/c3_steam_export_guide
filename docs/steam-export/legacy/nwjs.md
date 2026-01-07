@@ -23,7 +23,7 @@ We use the Greengrinds addon by Mikal instead of the official Greenworks addon. 
 2. Open your project in Construct 3
 3. Go to **Menu** → **View** → **Addon Manager**
 4. Click **Install new addon** and select the downloaded `.c3addon` file
-5. Restart Construct 3 if prompted
+5. Restart Construct 3 when prompted
 
 ## Step 2: Configure the Steamworks Addon
 
@@ -59,7 +59,7 @@ Before uploading to Steam, test your build locally:
 Once testing is complete, upload your build to Steam. See the [Uploading to Steam](../uploading-to-steam) guide for detailed instructions.
 
 ## .c3p File Example
-In case you need a Construct 3 project example to test things out, you can use <a href="../examples/steamworks_addon_example_r450_webview2_cef.c3p" target="_self">this one</a>.
+In case you need a Construct 3 project example to test things out, you can use <a href="../examples/greengrinds_test_app_nwjs098.c3p" target="_self">this one</a>.
 
 ## Troubleshooting
 
