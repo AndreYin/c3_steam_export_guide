@@ -7,7 +7,7 @@ Pipelab is a third-party tool that simplifies exporting Construct 3 games to des
   - ⭐ Supports multiple frameworks such as Electron, Tauri and Neutralino.
   - ⭐ Supports multiple storefronts (Steam, Epic Games, and more).
   - ⭐ Rich ecosystem of packages.
-  - ⭐ Powerful automation tools.
+  - ⭐ Powerful automation tools - you can build, package and push your game to Steam with a single click.
 - **Cons:**
   - ❌ User has to set-up their own automation solution.
   - ❌ Large file sizes (depending on wrapper chosen).
@@ -24,3 +24,7 @@ For detailed instructions on how to:
 - Export your game for Steam
 
 See the official documentation: [docs.pipelab.app](https://docs.pipelab.app)
+
+- 📖 [Built-in Exporters](../legacy/nwjs) — The Default Construct 3 Exporters After Release 450
+- 📖 [NW.js Legacy Export](../default/webview2-cef) — For full Steam support on Windows
+- 📖 [Gemshell](../gemshell) — Custom exporter

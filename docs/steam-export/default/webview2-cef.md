@@ -100,6 +100,6 @@ In case you need a Construct 3 project example to test things out, you can use <
 
 ## Other Exports
 
-- 📖 [NW.js Legacy Export](../legacy/nwjs) — For full Steam Overlay support on Windows
+- 📖 [Built-in Exporters](../legacy/nwjs) — The Default Construct 3 Exporters After Release 450
 - 📖 [Pipelab](../pipelab) — Custom Electron-based exporter
 - 📖 [Gemshell](../gemshell) — Custom exporter
