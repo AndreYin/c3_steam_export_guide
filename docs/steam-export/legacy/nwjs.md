@@ -38,13 +38,14 @@ After installing the addon, add it to your project:
 ## Step 3: Export Your Game
 
 1. Go to **Menu** → **Project** → **Export**
-2. Select your target platforms:
+2. Make sure you have v0.98.0 (Chromium 135) selected on the dropdown in the NW.js version menu
+3. Select your target platforms:
    - **Win64** for Windows builds
    - **Linux64** for Linux / SteamOS builds
-3. Configure the export settings as needed for your project
 4. Make sure the **Export for Steam** checkbox is on
-5. Click **Export** and wait for the build to complete
-6. Extract the exported `.zip` file to a folder
+5. Configure the export settings as needed for your project
+6. Click **Export** and wait for the build to complete
+7. Extract the exported `.zip` file to a folder
 
 ## Step 4: Test Locally
 
