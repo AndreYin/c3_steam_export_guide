@@ -46,7 +46,10 @@ export default defineConfig({
       },
       {
         text: 'Uploading to Steam',
-        link: '/steam-export/uploading-to-steam'
+        items: [
+          { text: 'Configuring Depots', link: '/steam-export/configuring-depots' },
+          { text: 'Uploading Builds', link: '/steam-export/uploading-to-steam' },
+        ]
       }
     ],
 

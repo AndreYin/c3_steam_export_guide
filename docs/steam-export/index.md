@@ -47,7 +47,7 @@ Unfortunately I don't have a Mac to test the OSX builds for Steam, but from what
 
 | Feature | **Official Webview2**<span title="Warning - Gamepad Input Issues">⚠️</span> | **Official CEF**  | **NW.js**<span title="Deprecated after r450">⚠️</span> | **Pipelab** |**GemShell** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Platforms Supported** | Windows | Linux | All Platforms |  All Platforms | All Platforms |
+| **Platforms Supported** | Windows | Linux/SteamOS | All Platforms |  All Platforms | All Platforms |
 | **Setup Difficulty** | ⭐⭐⭐ Easy  |⭐⭐⭐ Easy  |⭐⭐⭐ Easy  |  ⭐⭐ Moderate |⭐⭐ Moderate |
 | **File Size**        | 🟢 Tiny (~3MB+) | 🟡 Large (~150MB+) |🟡 Large (~150MB+)|  🟡 Large (~150MB+) |🟢 Tiny (~3MB+) |
 | **Steamworks API**    | 🟢Addons  | 🟢Addons | 🟢Addons |  🟢 Addons | 🟡Pure JavaScript|
@@ -58,7 +58,7 @@ Unfortunately I don't have a Mac to test the OSX builds for Steam, but from what
 
 ## Construct 3 Built-in Exporters (after r450)
 
-The official way of exporting your game, directly from inside Construct 3. It uses Webview2 for Windows, and Scirra's own implementation of the Chromium Embeded Framework (CEF, for short) for Linux.
+The official way of exporting your game, directly from inside Construct 3. It uses Webview2 for Windows, and Scirra's own implementation of the Chromium Embeded Framework (CEF, for short) for Linux/SteamOS.
 
 ::: danger ⚠️ This option is currently <strong>NOT</strong> recommended when using Webview2, as it has issues with [gamepad inputs](https://www.construct.net/en/forum/construct-3/general-discussion-7/xbox-controller-not-working-187241), and the Steam Overlay is a [workaround that could break at any moment](https://www.construct.net/en/blogs/ashleys-blog-2/trying-show-steam-overlay-1861).
 :::
@@ -68,9 +68,9 @@ The official way of exporting your game, directly from inside Construct 3. It us
 
 ## Construct 3 NW.js (below r450)
 
-This used to be the official way to export your games, until it was deprecated in favor of Webview2 for Windows and (CEF) for Linux. 
+This used to be the official way to export your games, until it was deprecated in favor of Webview2 for Windows and (CEF) for Linux.
 
-::: warning ⚠️ After release 450 of Construct 3, the older NW.js option was deprecated in favor of the newer webview2/CEF options, so it's not officially supported anymore. That being said, you can still use it on [older C3 releases](https://www.construct.net/en/make-games/releases) and it works great, that's why we're listing it here.
+::: warning ⚠️ After release 450 of Construct 3, the older NW.js option was deprecated in favor of the newer webview2/CEF options, so it's not officially supported anymore. That being said, you can still use it on [older C3 releases](https://www.construct.net/en/make-games/releases), it works great and has perfect Steamworks support for both Windows and Linux/SteamOS, that's why we're listing it here.
 :::
 
 ::: tip ➡️ Continue to the [NW.js Export Tutorial](legacy/nwjs) 

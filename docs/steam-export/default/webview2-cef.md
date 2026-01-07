@@ -8,11 +8,12 @@ Webview2 and CEF are the default exporters in Construct 3 after release 450. The
   - ⭐ Officialy supported Steamworks addons.
 - **Cons:**
   - ❌ Currently (Jan 04 2026) has issues with gamepads in general.
-  - ❌ Relies on multiple exports for different systems (Webview2 for Windows, CEF for Linux).
+  - ❌ Relies on multiple exports for different systems (Webview2 for Windows, CEF for Linux/SteamOS).
+  - ❌ For Windows, relies on the user having the WebView2 Runtime installed. If they don't, it will prompt the user to download it. New versions could bring incompatibilities and issues, as it has happened before.
 
 ::: info 📦 Platform Availability
 - **Webview2** — Windows only (uses Microsoft Edge Webview2 runtime)
-- **CEF** — Linux only (Chromium Embedded Framework)
+- **CEF** — Linux/SteamOS only (Chromium Embedded Framework)
 
 Both use the same Steamworks addon and setup process. The only difference is which export option you select.
 :::
@@ -54,7 +55,7 @@ After installing the addon, add it to your project:
 1. Go to **Menu** → **Project** → **Export**
 2. Select your target platform:
    - **Windows (Webview2)** for Windows builds
-   - **Linux (CEF)** for Linux builds
+   - **Linux (CEF)** for Linux/SteamOS builds
 3. Configure the export settings as needed for your project
 4. Click **Export** and wait for the build to complete
 5. Extract the exported `.zip` file to a folder
@@ -76,7 +77,7 @@ Add a debug text object that shows `Steamworks.UserDisplayName` to confirm Steam
 
 ## Step 5: Upload to Steam
 
-Once testing is complete, upload your build to Steam. See the [Uploading to Steam](../uploading-to-steam) guide for detailed instructions.
+Once testing is complete, you have to configure Steamworks so you can upload to it. See the [Configuring Steamworks](../configuring-depots.md) guide for detailed instructions.
 
 ## .c3p File Example
 In case you need a Construct 3 project example to test things out, you can use <a href="../examples/steamworks_addon_example_r450_webview2_cef.c3p" target="_self">this one</a>.
