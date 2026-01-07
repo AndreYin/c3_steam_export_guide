@@ -49,19 +49,18 @@ Unfortunately I don't have a Mac to test the OSX builds for Steam, but from what
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Platforms Supported** | Windows | Linux | All Platforms |  All Platforms | All Platforms |
 | **Setup Difficulty** | ⭐⭐⭐ Easy  |⭐⭐⭐ Easy  |⭐⭐⭐ Easy  |  ⭐⭐ Moderate |⭐⭐ Moderate |
-| **File Size**        | 🟢 Tiny (~3MB+) | 🔴 Large (~150MB+) |🔴 Large (~150MB+)|  🔴 Large (~150MB+) |🟢 Tiny (~3MB+) |
+| **File Size**        | 🟢 Tiny (~3MB+) | 🟡 Large (~150MB+) |🟡 Large (~150MB+)|  🟡 Large (~150MB+) |🟢 Tiny (~3MB+) |
 | **Steamworks API**    | 🟢Addons  | 🟢Addons | 🟢Addons |  🟢 Addons | 🟡Pure JavaScript|
-| **Steam Overlay**     | 🟢Works <span title="Currently works, but is a workaround that could break again at any time">⚠️</span> | 🔴Broken | 🟢Works | 🟢Works |🟡??? |
+| **Steam Overlay**     | 🟢Works <span title="Currently works, but the fix is a workaround that could break again at any time">⚠️</span> | 🔴Broken | 🟢Works | 🟢Works |🟡??? |
 | **Steam Input**       | 🔴Broken  | 🔴Broken | 🟢Works | 🟢Works |🟡??? |
 | **Cost**             | Included in C3  |Included in C3  | Included in C3  | Free / Paid | Free / $20 (Pro) |
 
 
+## Construct 3 Built-in Exporters (after r450)
 
-## Construct 3 Default Exporters (after r450)
+The official way of exporting your game, directly from inside Construct 3. It uses Webview2 for Windows, and Scirra's own implementation of the Chromium Embeded Framework (CEF, for short) for Linux.
 
-The Construct 3 default exporters are mostly recommended for simple projects, since everything but the Steamworks addon is already included in the latest versions of Construct 3.
-
-::: warning ⚠️ Webview2 currently has issues with gamepad inputs. 
+::: danger ⚠️ This option is currently <strong>NOT</strong> recommended when using Webview2, as it has issues with gamepad inputs, and the Steam Overlay is a workaround that could break at any moment.
 :::
 
 ::: tip ➡️ Continue to the [Webview2 / CEF Export Tutorial](default/webview2-cef) 
@@ -69,10 +68,12 @@ The Construct 3 default exporters are mostly recommended for simple projects, si
 
 ## Construct 3 NW.js (below r450)
 
+This used to be the official way to export your games, until it was deprecated in favor of Webview2 for Windows and (CEF) for Linux. 
+
 ::: warning ⚠️ After release 450 of Construct 3, the older NW.js option was deprecated in favor of the newer webview2/CEF options, so it's not officially supported anymore. That being said, you can still use it on [older C3 releases](https://www.construct.net/en/make-games/releases) and it works great, that's why we're listing it here.
 :::
 
-::: tip ➡️ Continue to the [NW.js Export Tutorial](default/nwjs) 
+::: tip ➡️ Continue to the [NW.js Export Tutorial](legacy/nwjs) 
 :::
 
 ## Pipelab
