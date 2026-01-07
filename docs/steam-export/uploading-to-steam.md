@@ -4,8 +4,8 @@ Once you've exported and tested your game locally, you can upload it to Steam us
 
 ## Option A: Steamworks Web Upload (Simple)
 
-1. Go to your app's Steamworks page
-2. Navigate to **SteamPipe** → **Builds**
+1. Go to your app's **Edit Steamworks Settings** page
+2. Navigate to **SteamPipe** → **Web Uploads**
 3. Click **Upload a build**
 4. Select your game folder and follow the prompts
 
